@@ -21,3 +21,7 @@ function solution(A, B) {
 
     return maxValues[1][lengA - 1];
 }
+
+A = [3, 4, 6], B = [6, 5, 4];
+const result = solution(A, B);
+console.log(result);

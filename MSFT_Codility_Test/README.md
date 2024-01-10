@@ -39,8 +39,8 @@ Examples:
 
 Test changes saved
 
-34  6 
-65  4 
+3 4  6 
+6 5  4 
 
 2. Given A = [1, 2, 1, 1, 1, 4], B = 11, 1, 1, 3, 1, 11, the function should return 2. The optimal path is shown in the image below.
 

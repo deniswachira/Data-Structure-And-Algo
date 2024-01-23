@@ -22,6 +22,14 @@ function solution(A, B) {
     return maxValues[1][lengA - 1];
 }
 
-A = [3, 4, 6], B = [6, 5, 4];
+// A = [3, 4, 6], B = [6, 5, 4];
+// const result = solution(A, B);
+// console.log(result);
+
+// A = [1, 2, 1, 1, 1, 4], B = [11, 1, 1, 3, 1, 11]
+// const result = solution(A, B);
+// console.log(result);
+
+A = [-5, -1, -3], B = [1 - 5, 5, -2]
 const result = solution(A, B);
 console.log(result);

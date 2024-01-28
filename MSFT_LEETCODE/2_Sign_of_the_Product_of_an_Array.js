@@ -2,13 +2,6 @@ function signFunc(nums) {
     let countNegatives = 0;
     let hasZero = false;
 
-    // nums.forEach(num => {
-    //     if (num < 0) {
-    //         countNegatives++;
-    //     } else if (num === 0) {
-    //         hasZero = true;
-    //     }
-    // });
     for (let i = 0; i < nums.length; i++) {
         if (nums[i] < 0) ++countNegatives
         if (nums[i] === 0) hasZero = true;

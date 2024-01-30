@@ -47,17 +47,17 @@ function goodNodes(root) {
 
 
 // implementation 
-let good = 0;
-function trav(node, max) {
-    if (!node) return;
-    if (node.val >= max) ++good;
-    max = Math.max(max, node.val);
-    trav(node.left, max);
-    trav(node.right, max);
-}
-trav(root, root.val);
-return good;
-
+//     let good = 0;
+//     function trav(node, max) {
+//         if (!node) return;
+//         if (node.val >= max) ++good;
+//         max = Math.max(max, node.val);
+//         trav(node.left, max);
+//         trav(node.right, max);
+//     }
+//     trav(root, root.val);
+//     return good;
+// }
 // Example usage:
 // Construct a binary tree
 //        3
@@ -70,7 +70,7 @@ tree.left = new TreeNode(1, new TreeNode(3), new TreeNode(5));
 tree.right = new TreeNode(4, null, new TreeNode(7));
 
 const result = goodNodes(tree);
-console.log(result);  // Output: 3
+console.log(result);  // Output: 5
 
 
 // Constraints:

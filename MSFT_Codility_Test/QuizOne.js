@@ -18,3 +18,7 @@ function solution(A, B) {
         return 0;
     }
 }
+
+let A = 10, B = 21;
+let result = solution(A, B);
+console.log(result);

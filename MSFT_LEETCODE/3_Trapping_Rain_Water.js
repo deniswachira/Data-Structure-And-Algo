@@ -3,10 +3,8 @@ function trap(height) {
     //Two pointers
     let n = height.length - 1;
     if (n <= 2) return 0;
-    let left = 0;
-    let right = n;
-    let leftMax = 0;
-    let rightMax = 0;
+    let left = 0; let right = n;
+    let leftMax = 0; let rightMax = 0;
     let trappedWater = 0;
     while (left < right) {
         if (height[left] < height[right]) {

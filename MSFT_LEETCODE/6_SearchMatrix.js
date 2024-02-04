@@ -7,7 +7,7 @@ function searchMatrix(matrix, target) {
     const cols = matrix[0].length;
     let left = 0;
     let right = rows * cols - 1;
-    console.log(right);
+    // console.log(right);
 
     while (left <= right) {
         const mid = Math.floor((left + right) / 2);
@@ -35,4 +35,3 @@ const target = 3;
 const result = searchMatrix(matrix, target);
 console.log(result);
 
-// console.log(1 % 4);
